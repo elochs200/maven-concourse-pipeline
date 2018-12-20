@@ -7,6 +7,9 @@ image_resource:
 inputs:
   - name: source-code
   - name: pipeline
+  
+caches:
+  - path: .m2/
 
 run:
   path: pipeline/tasks/maven-build.sh
