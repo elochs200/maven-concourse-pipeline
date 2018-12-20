@@ -10,6 +10,7 @@ inputs:
   
 caches:
   - path: .m2/
+  - path: /root/.m2/
 
 run:
   path: pipeline/tasks/maven-build.sh
